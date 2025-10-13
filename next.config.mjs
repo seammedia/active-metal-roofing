@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Standard build (not static export) to support API routes
   images: {
     unoptimized: true,
   },

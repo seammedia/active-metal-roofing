@@ -1,0 +1,38 @@
+# WordPress import files (not needed for runtime)
+_import
+sitegrab
+wp-content
+
+# Large archive files
+**/*.zip
+**/*.sql
+**/*.xml
+**/*.wpress
+
+# Build artifacts
+node_modules
+.next/cache
+.next/trace
+
+# Archive of old HTML files
+_archive
+
+# Old static assets (duplicates of public/img)
+assets
+
+# Tools and scripts
+tools
+
+# Documentation
+*.md
+!README.md
+
+# Development files
+.DS_Store
+*.log
+.env.local
+.env*.local
+
+# Git
+.git
+.gitignore
