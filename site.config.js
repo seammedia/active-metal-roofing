@@ -151,12 +151,14 @@ module.exports = {
     ]
   },
 
-  // Brand Colors (extracted from website)
+  // Brand Colors (extracted from WordPress Elementor CSS)
   colors: {
-    primary: "#1e88e5", // Blue
-    primaryLight: "#A3D7F3", // Light blue
-    secondary: "#0d47a1", // Dark blue
-    accent: "#ffa726", // Orange accent
+    primary: "#006991", // Teal - main brand color (WP actual)
+    primaryLight: "#A4D7F4", // Light blue header (WP actual)
+    secondary: "#6EC1E4", // Accent blue (WP actual)
+    accent: "#61CE70", // Green accent (WP actual)
+    text: "#7A7A7A", // Body text gray (WP actual)
+    headings: "#000000", // Heading text (WP actual)
     dark: "#212121",
     light: "#f5f5f5",
     white: "#ffffff"
