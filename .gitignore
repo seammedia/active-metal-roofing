@@ -8,3 +8,7 @@ _import/
 _backup/
 *.backup
 .vscode/
+.next/
+out/
+node_modules/
+*.log
