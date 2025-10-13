@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Standard build (not static export) to support API routes
-  images: {
-    unoptimized: true,
-  },
+  reactStrictMode: true,
   trailingSlash: false,
+  // Vercel image optimization enabled (images config removed)
 };
 
 export default nextConfig;

@@ -1,12 +1,15 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 
 const services = {
   'commercial-re-roofing': {
     title: 'Commercial Re-Roofing',
-    description: 'Professional commercial re-roofing services in Melbourne. Replace old, damaged roofs with high-quality metal roofing systems.',
+    description: 'Professional commercial re-roofing services in Melbourne. Replace old, damaged roofs with high-quality metal roofing systems. Licensed plumbers with 22 years experience.',
     heroText: 'Expert commercial roof replacement services for businesses across Melbourne and Victoria',
+    image: '/img/2025/03/Best-Commercial-Roof-Restoration-Melbourne.jpg',
+    imageAlt: 'Commercial roof restoration project in Melbourne',
     benefits: [
       {
         title: 'Extended Roof Life',
@@ -28,8 +31,10 @@ const services = {
   },
   'commercial-roofing': {
     title: 'Commercial Roofing',
-    description: 'New commercial roof installations for all building types. Quality materials and professional workmanship guaranteed.',
+    description: 'New commercial roof installations for all building types. Quality materials and professional workmanship guaranteed. 22 years experience in Melbourne.',
     heroText: 'Complete commercial roofing solutions for new buildings and major renovations',
+    image: '/img/2025/03/Roofing-Contractors-for-Commercial-Properties.png',
+    imageAlt: 'Professional roofing contractors working on commercial property',
     benefits: [
       {
         title: 'Tailored Solutions',
@@ -51,8 +56,10 @@ const services = {
   },
   'architectural-cladding': {
     title: 'Architectural Cladding',
-    description: 'Premium cladding solutions that enhance aesthetics while providing superior weather protection.',
+    description: 'Premium cladding solutions that enhance aesthetics while providing superior weather protection. Expert installation by licensed professionals.',
     heroText: 'Transform your building with stylish, durable architectural cladding systems',
+    image: '/img/2025/03/Commercial-Flat-Metal-Roofs-Melbourne.jpg',
+    imageAlt: 'Architectural metal cladding on commercial building',
     benefits: [
       {
         title: 'Design Flexibility',
@@ -74,8 +81,10 @@ const services = {
   },
   'industrial-roofing': {
     title: 'Industrial Roofing',
-    description: 'Heavy-duty industrial roofing systems designed for warehouses, factories, and large-scale facilities.',
+    description: 'Heavy-duty industrial roofing systems designed for warehouses, factories, and large-scale facilities. OH&S compliant with 22 years experience.',
     heroText: 'Robust roofing solutions for industrial and warehouse facilities',
+    image: '/img/2025/03/Best-Metal-Roofing-For-Commercial-Flat-Roofs.jpg',
+    imageAlt: 'Industrial metal roofing installation',
     benefits: [
       {
         title: 'Large-Scale Expertise',
@@ -97,8 +106,10 @@ const services = {
   },
   'roof-inspections': {
     title: 'Roof Inspections',
-    description: 'Comprehensive roof condition assessments with detailed reports and recommendations.',
+    description: 'Comprehensive roof condition assessments with detailed reports and recommendations. Free inspections with quotes from licensed plumbers.',
     heroText: 'Professional roof inspections to protect your investment',
+    image: '/img/2025/03/Flat-Metal-Roofing-Solutions-Melbourne.jpg',
+    imageAlt: 'Professional roof inspection service',
     benefits: [
       {
         title: 'Detailed Assessment',
@@ -120,8 +131,10 @@ const services = {
   },
   'colorbond-roof-replacement': {
     title: 'Colorbond Roof Replacement',
-    description: 'Durable Colorbond roofing solutions with a wide range of colors and finishes.',
+    description: 'Durable Colorbond roofing solutions with a wide range of colors and finishes. Australian-made steel for harsh climate conditions.',
     heroText: 'Premium Colorbond roofing installations for lasting protection and style',
+    image: '/img/2025/03/Flat-Metal-Roofing-Melbourne.jpeg',
+    imageAlt: 'Colorbond metal roofing installation',
     benefits: [
       {
         title: 'Color Selection',
@@ -143,8 +156,10 @@ const services = {
   },
   'metal-roof-replacement': {
     title: 'Metal Roof Replacement',
-    description: 'Expert metal roof replacement services using premium materials and proven techniques.',
+    description: 'Expert metal roof replacement services using premium materials and proven techniques. 40-70 year lifespan with proper installation.',
     heroText: 'Professional metal roofing replacement for commercial and industrial buildings',
+    image: '/img/2025/03/Best-Metal-Roof-Restoration.jpg',
+    imageAlt: 'Metal roof replacement project',
     benefits: [
       {
         title: 'Material Options',
@@ -166,8 +181,10 @@ const services = {
   },
   'metal-roof-restoration': {
     title: 'Metal Roof Restoration',
-    description: 'Restore and extend your roof\'s lifespan with professional cleaning, repairs, and protective coatings.',
+    description: 'Restore and extend your roof\'s lifespan with professional cleaning, repairs, and protective coatings. Save 30-50% vs replacement.',
     heroText: 'Revitalize aging metal roofs and extend their service life',
+    image: '/img/2025/03/Metal-Roof-Restoration-Service-Melbourne.jpeg',
+    imageAlt: 'Metal roof restoration service in Melbourne',
     benefits: [
       {
         title: 'Cost Savings',
@@ -200,13 +217,27 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
   if (!service) {
     return {
-      title: 'Service Not Found',
+      title: 'Service Not Found | Active Metal Roofing',
     };
   }
 
   return {
     title: `${service.title} | Active Metal Roofing`,
     description: service.description,
+    openGraph: {
+      title: `${service.title} | Active Metal Roofing`,
+      description: service.description,
+      type: 'website',
+      url: `https://activemetalroofing.com.au/services/${params.slug}`,
+      images: [
+        {
+          url: `https://activemetalroofing.com.au${service.image}`,
+          width: 1200,
+          height: 630,
+          alt: service.imageAlt,
+        },
+      ],
+    },
   };
 }
 
@@ -221,7 +252,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
     <>
       {/* Service Hero */}
       <section style={{
-        background: 'linear-gradient(135deg, #0d47a1 0%, #006991 100%)',
+        background: 'linear-gradient(135deg, #006991 0%, #6EC1E4 100%)',
         color: '#fff',
         padding: '100px 20px 70px',
         textAlign: 'center'
@@ -235,7 +266,19 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
       </section>
 
       {/* Service Content */}
-      <section style={{ maxWidth: '1000px', margin: '0 auto', padding: '60px 20px' }}>
+      <section style={{ maxWidth: '1200px', margin: '0 auto', padding: '60px 20px' }}>
+        {/* Featured Image */}
+        <div style={{ marginBottom: '48px', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
+          <Image
+            src={service.image}
+            alt={service.imageAlt}
+            width={1200}
+            height={600}
+            priority
+            style={{ width: '100%', height: 'auto' }}
+          />
+        </div>
+
         <div style={{ marginBottom: '48px' }}>
           <h2 style={{ fontSize: '2rem', marginBottom: '16px', color: '#212121' }}>
             About This Service
