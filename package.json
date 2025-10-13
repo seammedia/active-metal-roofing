@@ -8,8 +8,22 @@
     "sharp": "^0.33.0"
   },
   "scripts": {
-    "build:images": "node tools/build-images.mjs",
-    "dev": "python3 -m http.server 8000",
-    "preview": "python3 -m http.server 8000"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:images": "node tools/build-images.mjs"
+  },
+  "dependencies": {
+    "@types/node": "^24.7.2",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "autoprefixer": "^10.4.21",
+    "next": "^14.2.33",
+    "postcss": "^8.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.18",
+    "typescript": "^5.9.3"
   }
 }

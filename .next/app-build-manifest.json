@@ -1,0 +1,52 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-d8e17656c0d48a1e.js",
+      "static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "static/chunks/117-3e6ff4db25ea160f.js",
+      "static/chunks/main-app-c6a4a18c7b5a5738.js",
+      "static/chunks/app/_not-found/page-d1916c0b16ebe328.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-d8e17656c0d48a1e.js",
+      "static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "static/chunks/117-3e6ff4db25ea160f.js",
+      "static/chunks/main-app-c6a4a18c7b5a5738.js",
+      "static/css/e89b301c4f22bd26.css",
+      "static/css/7267c6696a25d1d4.css",
+      "static/chunks/972-ceea3baa05359a1c.js",
+      "static/chunks/app/layout-c29b63086e96cfb9.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-d8e17656c0d48a1e.js",
+      "static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "static/chunks/117-3e6ff4db25ea160f.js",
+      "static/chunks/main-app-c6a4a18c7b5a5738.js",
+      "static/chunks/app/contact/page-07e6e5245d4c702f.js"
+    ],
+    "/services/[slug]/page": [
+      "static/chunks/webpack-d8e17656c0d48a1e.js",
+      "static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "static/chunks/117-3e6ff4db25ea160f.js",
+      "static/chunks/main-app-c6a4a18c7b5a5738.js",
+      "static/chunks/972-ceea3baa05359a1c.js",
+      "static/chunks/app/services/[slug]/page-fccc740698617649.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-d8e17656c0d48a1e.js",
+      "static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "static/chunks/117-3e6ff4db25ea160f.js",
+      "static/chunks/main-app-c6a4a18c7b5a5738.js",
+      "static/chunks/972-ceea3baa05359a1c.js",
+      "static/chunks/app/page-c5a478839b601fd2.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-d8e17656c0d48a1e.js",
+      "static/chunks/fd9d1056-3eee857bde8f3b06.js",
+      "static/chunks/117-3e6ff4db25ea160f.js",
+      "static/chunks/main-app-c6a4a18c7b5a5738.js",
+      "static/chunks/972-ceea3baa05359a1c.js",
+      "static/chunks/app/about/page-6e9dbb7ce4beea73.js"
+    ]
+  }
+}

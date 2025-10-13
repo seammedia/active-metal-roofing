@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Active Metal Roofing - Commercial and industrial roofing specialists in Melbourne. 22 years experience in re-roofing, cladding, and roof inspections. Licensed registered plumbers.">
+    <meta name="keywords" content="commercial roofing, industrial roofing, metal roofing, architectural cladding, roof inspections, Melbourne, Victoria">
+    <title>Active Metal Roofing | Commercial & Industrial Roofing Specialists Melbourne</title>
+
+    <!-- Noindex for staging -->
+    <meta name="robots" content="noindex,nofollow">
+
+    <!-- SEO Essentials -->
+    <link rel="canonical" href="https://activemetalroofing.com.au/">
+    <meta property="og:title" content="Active Metal Roofing | Commercial & Industrial Roofing Specialists">
+    <meta property="og:description" content="Professional commercial and industrial metal roofing services across Melbourne. 22 years experience. Licensed plumbers.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://activemetalroofing.com.au/">
+    <meta property="og:image" content="https://activemetalroofing.com.au/img/hero-commercial-roofing.jpg">
+
+    <!-- Styles -->
+    <link rel="preload" as="style" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+
+    <!-- Google Fonts - Using Roboto as Product Sans alternative -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #000000; }
+        html { scroll-padding-top: 80px; scroll-behavior: smooth; }
+
+        /* Hero Section - WordPress Colors */
+        .hero {
+            background: linear-gradient(135deg, #006991 0%, #6EC1E4 100%);
+            color: #fff;
+            padding: 120px 20px 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('/img/hero-pattern.svg') repeat;
+            opacity: 0.05;
+        }
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+        .hero .tagline {
+            font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+            margin-bottom: 16px;
+            opacity: 0.95;
+            font-weight: 500;
+        }
+        .hero .subtext {
+            font-size: 1.05rem;
+            margin-bottom: 32px;
+            opacity: 0.9;
+        }
+        .hero-ctas {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .hero-ctas .btn {
+            padding: 14px 28px;
+            font-size: 1.05rem;
+        }
+        .btn-primary {
+            background: #fff;
+            color: #006991;
+            font-weight: 700;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .btn-secondary {
+            background: rgba(255,255,255,0.15);
+            color: #fff;
+            border: 2px solid #fff;
+            font-weight: 700;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.25);
+        }
+
+        /* Trust Bar */
+        .trust-bar {
+            background: #f5f5f5;
+            padding: 28px 20px;
+            text-align: center;
+        }
+        .trust-items {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            color: #424242;
+        }
+        .trust-item svg {
+            width: 24px;
+            height: 24px;
+            fill: #006991;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .services h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            color: #212121;
+        }
+        .services .intro {
+            text-align: center;
+            font-size: 1.15rem;
+            color: #616161;
+            max-width: 700px;
+            margin: 0 auto 48px;
+        }
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+        .service-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 32px 24px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .service-card h3 {
+            font-size: 1.35rem;
+            margin-bottom: 12px;
+            color: #212121;
+        }
+        .service-card p {
+            color: #616161;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+        .service-card a {
+            color: #006991;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .service-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Why Choose Us */
+        .why-choose {
+            background: linear-gradient(135deg, #f5f5f5 0%, #e3f2fd 100%);
+            padding: 80px 20px;
+        }
+        .why-choose-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .why-choose h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 48px;
+            color: #212121;
+        }
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 32px;
+        }
+        .why-item {
+            text-align: center;
+        }
+        .why-icon {
+            width: 64px;
+            height: 64px;
+            background: #006991;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+        }
+        .why-icon svg {
+            width: 32px;
+            height: 32px;
+            fill: #fff;
+        }
+        .why-item h3 {
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+            color: #212121;
+        }
+        .why-item p {
+            color: #616161;
+            line-height: 1.6;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: #006991;
+            color: #fff;
+            padding: 64px 20px;
+            text-align: center;
+        }
+        .cta-section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 16px;
+        }
+        .cta-section p {
+            font-size: 1.15rem;
+            margin-bottom: 32px;
+            opacity: 0.95;
+        }
+        .cta-section .btn {
+            padding: 14px 32px;
+            font-size: 1.1rem;
+        }
+
+        @media(max-width: 768px) {
+            .hero { padding: 80px 20px 60px; }
+            .services, .why-choose { padding: 60px 20px; }
+            .service-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Top Bar (WordPress Style) -->
+<div style="background: #A4D7F4; padding: 10px 20px; text-align: center;">
+    <a href="mailto:admin@activemetalroofing.com.au" style="color: #006991; text-decoration: none; font-weight: 600; font-size: 14px;">
+        ✉️ admin@activemetalroofing.com.au
+    </a>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+    <div class="container header-bar">
+        <a href="/index.html" class="logo" style="display: flex; align-items: center; gap: 10px;">
+            <img src="/assets/img/logo.webp" alt="Active Metal Roofing" style="height: 50px;">
+            <span>Active Metal Roofing</span>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="nav-desktop" aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li class="has-sub">
+                    <button class="sub-toggle" aria-expanded="false">Services</button>
+                    <ul class="sub-menu" hidden>
+                        <li><a href="/services/commercial-re-roofing.html">Commercial Re-Roofing</a></li>
+                        <li><a href="/services/commercial-roofing.html">Commercial Roofing</a></li>
+                        <li><a href="/services/architectural-cladding.html">Architectural Cladding</a></li>
+                        <li><a href="/services/industrial-roofing.html">Industrial Roofing</a></li>
+                        <li><a href="/services/roof-inspections.html">Roof Inspections</a></li>
+                    </ul>
+                </li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-ctas">
+                <a href="tel:0451866494" class="btn phone">📞 0451 866 494</a>
+                <a href="/contact.html" class="btn btn-quote">Free Quote</a>
+            </div>
+        </nav>
+
+        <!-- Mobile Hamburger -->
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+<!-- Mobile Drawer -->
+<div class="overlay" hidden></div>
+<div class="drawer" data-open="false">
+    <div class="drawer-header">
+        <span class="logo">Active Metal Roofing</span>
+        <button class="drawer-close" aria-label="Close menu">×</button>
+    </div>
+    <nav class="drawer-nav">
+        <ul class="drawer-list">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li class="accordion">
+                <button class="acc-btn" aria-expanded="false">
+                    Services
+                    <svg class="chev" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                </button>
+                <ul class="acc-panel" aria-expanded="false">
+                    <li><a href="/services/commercial-re-roofing.html">Commercial Re-Roofing</a></li>
+                    <li><a href="/services/commercial-roofing.html">Commercial Roofing</a></li>
+                    <li><a href="/services/architectural-cladding.html">Architectural Cladding</a></li>
+                    <li><a href="/services/industrial-roofing.html">Industrial Roofing</a></li>
+                    <li><a href="/services/roof-inspections.html">Roof Inspections</a></li>
+                </ul>
+            </li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="drawer-ctas">
+        <a href="tel:0451866494" class="btn phone">📞 0451 866 494</a>
+        <a href="/contact.html" class="btn btn-quote">Free Quote</a>
+    </div>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Commercial & Industrial Roofing Specialists</h1>
+        <p class="tagline">Professional Metal Roofing Solutions Across Melbourne & Victoria</p>
+        <p class="subtext">22 years of experience | Licensed Plumbers | On-Time Completion</p>
+        <div class="hero-ctas">
+            <a href="/contact.html" class="btn btn-primary">Get Free Inspection</a>
+            <a href="tel:0451866494" class="btn btn-secondary">Call 0451 866 494</a>
+        </div>
+    </div>
+</section>
+
+<!-- Trust Bar -->
+<section class="trust-bar">
+    <div class="trust-items">
+        <div class="trust-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+            <span>22 Years Experience</span>
+        </div>
+        <div class="trust-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+            <span>Licensed Plumbers</span>
+        </div>
+        <div class="trust-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/></svg>
+            <span>OH&S Compliant</span>
+        </div>
+        <div class="trust-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <span>Melbourne Wide</span>
+        </div>
+    </div>
+</section>
+
+<!-- Services -->
+<section class="services">
+    <h2>Our Services</h2>
+    <p class="intro">Comprehensive metal roofing solutions for commercial and industrial properties</p>
+
+    <div class="service-grid">
+        <div class="service-card">
+            <h3>Commercial Re-Roofing</h3>
+            <p>Complete roof replacement for aging commercial buildings. Extends roof life, saves time and money. Projects of any size.</p>
+            <a href="/services/commercial-re-roofing.html">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+            <h3>Commercial Roofing</h3>
+            <p>New commercial roof installations using high-quality materials and advanced techniques that enhance property appeal.</p>
+            <a href="/services/commercial-roofing.html">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+            <h3>Architectural Cladding</h3>
+            <p>Enhance building aesthetics with diverse cladding options. Provides insulation and environmental protection.</p>
+            <a href="/services/architectural-cladding.html">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+            <h3>Industrial Roofing</h3>
+            <p>Heavy-duty roofing for industrial facilities. Survives tough conditions and protects business investments.</p>
+            <a href="/services/industrial-roofing.html">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+            <h3>Roof Inspections</h3>
+            <p>Comprehensive roof condition assessments. Identify problems, hazards, and parts needing repair before costly failures.</p>
+            <a href="/services/roof-inspections.html">Learn More →</a>
+        </div>
+
+        <div class="service-card">
+            <h3>Colorbond Roofing</h3>
+            <p>Durable, low-maintenance Colorbond roof replacement. Premium Australian steel in multiple colours.</p>
+            <a href="/services/colorbond-roof-replacement.html">Learn More →</a>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="why-choose">
+    <div class="why-choose-content">
+        <h2>Why Choose Active Metal Roofing?</h2>
+        <div class="why-grid">
+            <div class="why-item">
+                <div class="why-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                </div>
+                <h3>Established Since 2015</h3>
+                <p>Nearly a decade of proven expertise in commercial and industrial metal roofing across Victoria.</p>
+            </div>
+
+            <div class="why-item">
+                <div class="why-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                </div>
+                <h3>Licensed & Qualified</h3>
+                <p>All our team members are registered plumbers with relevant licenses and OH&S compliance.</p>
+            </div>
+
+            <div class="why-item">
+                <div class="why-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+                </div>
+                <h3>Quality Materials</h3>
+                <p>We use only sustainable, durable, and reusable premium materials for lasting performance.</p>
+            </div>
+
+            <div class="why-item">
+                <div class="why-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                </div>
+                <h3>On-Time Completion</h3>
+                <p>We pride ourselves on efficient project management and meeting all agreed deadlines.</p>
+            </div>
+
+            <div class="why-item">
+                <div class="why-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/></svg>
+                </div>
+                <h3>Eco-Friendly</h3>
+                <p>Committed to environmentally conscious practices and sustainable roofing solutions.</p>
+            </div>
+
+            <div class="why-item">
+                <div class="why-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 6h-2.18c.11-.31.18-.65.18-1 0-1.66-1.34-3-3-3-1.05 0-1.96.54-2.5 1.35l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 11 8.76l1-1.36 1 1.36L15.38 12 17 10.83 14.92 8H20v6z"/></svg>
+                </div>
+                <h3>Free Inspections</h3>
+                <p>Get a comprehensive roof assessment at no cost. Identify issues before they become expensive.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <h2>Ready to Get Started?</h2>
+    <p>Contact us today for a free roof inspection and quote</p>
+    <a href="/contact.html" class="btn btn-primary">Get Your Free Quote</a>
+</section>
+
+<!-- Footer -->
+<footer style="background: #212121; color: #fff; padding: 48px 20px 24px;">
+    <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px;">
+        <div>
+            <h3 style="margin-bottom: 16px;">Active Metal Roofing</h3>
+            <p style="opacity: 0.8; line-height: 1.6;">Commercial and industrial roofing specialists serving Melbourne and Victoria since 2015.</p>
+        </div>
+        <div>
+            <h4 style="margin-bottom: 16px;">Quick Links</h4>
+            <ul style="list-style: none; line-height: 2;">
+                <li><a href="/index.html" style="color: #fff; text-decoration: none; opacity: 0.8;">Home</a></li>
+                <li><a href="/about.html" style="color: #fff; text-decoration: none; opacity: 0.8;">About</a></li>
+                <li><a href="/services/" style="color: #fff; text-decoration: none; opacity: 0.8;">Services</a></li>
+                <li><a href="/contact.html" style="color: #fff; text-decoration: none; opacity: 0.8;">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 style="margin-bottom: 16px;">Services</h4>
+            <ul style="list-style: none; line-height: 2;">
+                <li><a href="/services/commercial-re-roofing.html" style="color: #fff; text-decoration: none; opacity: 0.8;">Commercial Re-Roofing</a></li>
+                <li><a href="/services/commercial-roofing.html" style="color: #fff; text-decoration: none; opacity: 0.8;">Commercial Roofing</a></li>
+                <li><a href="/services/architectural-cladding.html" style="color: #fff; text-decoration: none; opacity: 0.8;">Architectural Cladding</a></li>
+                <li><a href="/services/industrial-roofing.html" style="color: #fff; text-decoration: none; opacity: 0.8;">Industrial Roofing</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 style="margin-bottom: 16px;">Contact</h4>
+            <p style="opacity: 0.8; line-height: 1.8;">
+                📞 <a href="tel:0451866494" style="color: #fff; text-decoration: none;">0451 866 494</a><br>
+                ✉️ <a href="mailto:admin@activemetalroofing.com.au" style="color: #fff; text-decoration: none;">admin@activemetalroofing.com.au</a><br>
+                📍 1 Knott Court, Langwarrin VIC 3910
+            </p>
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 40px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1); opacity: 0.7;">
+        <p>&copy; 2025 Active Metal Roofing Vic Pty Ltd. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="/assets/js/mobile-nav.js"></script>
+
+</body>
+</html>
