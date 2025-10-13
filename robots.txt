@@ -1,0 +1,15 @@
+# Robots.txt for Active Metal Roofing
+# Production: Allow all
+# Staging: Disallow all (update in production)
+
+User-agent: *
+Disallow: /
+
+# Uncomment for production:
+# User-agent: *
+# Allow: /
+# Disallow: /admin/
+# Disallow: /_import/
+# Disallow: /_backup/
+
+# Sitemap: https://activemetalroofing.com.au/sitemap.xml
