@@ -6,8 +6,9 @@ wp-content
 # Large archive files
 **/*.zip
 **/*.sql
-**/*.xml
 **/*.wpress
+_import/**/*.xml
+wp-content/**/*.xml
 
 # Build artifacts
 node_modules
