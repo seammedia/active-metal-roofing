@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import Hero from '@/components/Hero';
 
 export const metadata: Metadata = {
   title: 'Active Metal Roofing | Commercial & Industrial Roofing Specialists Melbourne',
@@ -66,17 +67,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="hero">
-        <div className="hero-content">
-          <h1>Commercial & Industrial Roofing Specialists</h1>
-          <p className="tagline">Professional Metal Roofing Solutions Across Melbourne & Victoria</p>
-          <p className="subtext">22 years of experience | Licensed Plumbers | On-Time Completion</p>
-          <div className="hero-ctas">
-            <Link href="/contact" className="btn btn-primary">Get Free Inspection</Link>
-            <a href="tel:0451866494" className="btn btn-secondary">Call 0451 866 494</a>
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       {/* Trust Bar */}
       <section className="trust-bar">
