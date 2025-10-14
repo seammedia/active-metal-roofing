@@ -15,7 +15,7 @@ export default function Hero() {
           className="object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/35 to-black/20" />
       </div>
 
       {/* Content Container */}
@@ -24,9 +24,9 @@ export default function Hero() {
 
           {/* Left Column - Hero Content */}
           <div className="text-white pt-8">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-white font-extrabold tracking-tight text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6">
               Commercial & Industrial Roofing{' '}
-              <span style={{ color: '#6EC1E4' }}>Specialists</span>
+              <span className="text-[#6EC1E4]">Specialists</span>
             </h1>
 
             <p className="text-xl md:text-2xl mb-6 text-gray-100">
