@@ -1,12 +1,12 @@
 import { StaticImageData } from 'next/image';
 
-// Import project images directly from assets
-import egoImg from '@/assets/img/ego.png';
-import jubileeImg from '@/assets/img/jubilee.png';
-import paduaImg from '@/assets/img/padua_College.png';
-import glenImg from '@/assets/img/glen_waverly_primary.png';
-import bowensImg from '@/assets/img/bowens.png';
-import mercedesImg from '@/assets/img/mercedes_waverly.png';
+// Import project images from public folder
+import egoImg from '@/public/assets/img/ego.png';
+import jubileeImg from '@/public/assets/img/jubilee.png';
+import paduaImg from '@/public/assets/img/padua_College.png';
+import glenImg from '@/public/assets/img/glen_waverly_primary.png';
+import bowensImg from '@/public/assets/img/bowens.png';
+import mercedesImg from '@/public/assets/img/mercedes_waverly.png';
 
 export interface Project {
   id: string;
