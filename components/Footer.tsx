@@ -65,11 +65,6 @@ export default function Footer() {
                   ✉️ admin@activemetalroofing.com.au
                 </a>
               </li>
-              <li>
-                📍 1 Knott Court<br />
-                Langwarrin VIC 3910<br />
-                Australia
-              </li>
             </ul>
           </div>
         </div>

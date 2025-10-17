@@ -87,17 +87,6 @@ export default function ContactPage() {
               </a>
             </div>
 
-            <div style={{ marginBottom: '24px' }}>
-              <h3 style={{ fontSize: '1.25rem', marginBottom: '12px', color: '#212121', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                📍 Address
-              </h3>
-              <p style={{ fontSize: '1.1rem', color: '#616161', lineHeight: '1.6' }}>
-                1 Knott Court<br />
-                Langwarrin VIC 3910<br />
-                Australia
-              </p>
-            </div>
-
             <div>
               <h3 style={{ fontSize: '1.25rem', marginBottom: '12px', color: '#212121', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 🕒 Trading Hours
