@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'How to Prevent Damaged Roofs in Carrum Downs | Active Metal Roofing',
@@ -17,9 +15,7 @@ export const metadata: Metadata = {
 
 export default function BlogPost() {
   return (
-    <>
-      <Header />
-      <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
         {/* Breadcrumb */}
         <div className="bg-gray-50 border-b">
           <div className="container mx-auto px-4 py-3">
@@ -448,8 +444,6 @@ export default function BlogPost() {
             </div>
           </div>
         </article>
-      </main>
-      <Footer />
-    </>
+    </div>
   )
 }
