@@ -9,6 +9,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: 'how-to-prevent-damaged-roofs-in-carrum-downs',
+    title: 'How to Prevent Damaged Roofs in Carrum Downs',
+    excerpt: 'Expert tips on preventing roof damage in Carrum Downs. Learn about maintenance, inspections, and protective measures to extend your roof\'s lifespan in coastal environments.',
+    image: '/img/blog/how-to-prevent-damaged-roofs-in-carrum-downs.jpg',
+    date: 'January 2025',
+    readTime: '8 min read',
+    category: 'Maintenance Tips'
+  },
+  {
     slug: 'how-much-is-a-colorbond-roof',
     title: 'How Much is a Colorbond Roof? 2025 Cost Guide Australia',
     excerpt: 'Complete guide to Colorbond roofing costs in Australia. Learn about price per m2, installation costs, replacement prices, and use our cost calculator guide.',
