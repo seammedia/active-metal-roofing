@@ -25,7 +25,7 @@ export const services: Record<string, ServicePage> = {
     name: "Commercial Re-Roofing",
     heroImage: "/img/2025/03/Best-Commercial-Roof-Restoration-Melbourne.jpg",
     intro: {
-      title: "Commercial Re-Roofing Melbourne – Trusted Experts at Active Metal Roofing",
+      title: "Commercial Re-Roofing Melbourne – Trusted Experts",
       body: [
         "Active Metal Roofing is an expert in commercial re-roofing in Melbourne, delivering reliable, durable, and cost-effective solutions across Victoria.",
         "We work with retail, warehouse and industrial properties, minimising downtime while maximising lifespan. Our licensed plumbers bring 22 years of experience to every project, ensuring quality results that protect your investment."
@@ -107,7 +107,7 @@ export const services: Record<string, ServicePage> = {
       }
     ],
     seo: {
-      title: "Commercial Roofing Melbourne | Licensed Metal Roofing Contractors",
+      title: "Commercial Roofing Melbourne | Active Metal Roofing",
       description: "Professional commercial roofing installations in Melbourne. 22 years experience, licensed plumbers, quality materials. Free quotes available."
     }
   },
@@ -163,7 +163,7 @@ export const services: Record<string, ServicePage> = {
     name: "Industrial Roofing",
     heroImage: "/img/2025/03/Best-Metal-Roofing-For-Commercial-Flat-Roofs.jpg",
     intro: {
-      title: "Industrial Roofing Melbourne – Heavy-Duty Solutions for Large-Scale Facilities",
+      title: "Industrial Roofing Melbourne – Heavy-Duty Solutions",
       body: [
         "Active Metal Roofing delivers robust industrial roofing systems designed for warehouses, factories, and large-scale facilities across Melbourne and Victoria.",
         "Our experienced team specializes in managing extensive industrial projects with full OH&S compliance, ensuring your facility is protected while maintaining operational efficiency."
@@ -181,7 +181,7 @@ export const services: Record<string, ServicePage> = {
         title: "Why Choose Specialist Industrial Roofing?",
         body: [
           "Industrial facilities require roofing systems engineered to withstand heavy loads, wide spans, and demanding environmental conditions while protecting valuable equipment and inventory.",
-          "Our team brings specialized expertise in large-scale roofing projects, understanding the unique structural and operational requirements of industrial buildings.",
+          "Our team brings specialised expertise in large-scale roofing projects, understanding the unique structural and operational requirements of industrial buildings.",
           "We prioritize safety on every site, implementing comprehensive OH&S protocols and working efficiently to minimize disruption to your operations."
         ],
         image: "/img/2025/03/Flat-Metal-Roofing-Solutions-Melbourne-300x265.jpg",
@@ -291,7 +291,7 @@ export const services: Record<string, ServicePage> = {
       }
     ],
     seo: {
-      title: "Colorbond Roof Replacement Melbourne | Australian Steel Roofing",
+      title: "Colorbond Roof Replacement Melbourne | Active Metal",
       description: "Premium Colorbond roof replacement in Melbourne. Wide color range, comprehensive warranties, licensed installation team."
     }
   },
@@ -301,7 +301,7 @@ export const services: Record<string, ServicePage> = {
     name: "Metal Roof Replacement",
     heroImage: "/img/2025/03/Best-Metal-Roof-Restoration.jpg",
     intro: {
-      title: "Metal Roof Replacement Melbourne – Premium Materials, Expert Installation",
+      title: "Metal Roof Replacement Melbourne – Expert Installation",
       body: [
         "Active Metal Roofing provides expert metal roof replacement services using premium materials and proven techniques that ensure 40-70 year lifespan with proper installation.",
         "Our licensed team specializes in commercial and industrial metal roofing, delivering quality results that protect your property and investment."
@@ -383,8 +383,100 @@ export const services: Record<string, ServicePage> = {
       }
     ],
     seo: {
-      title: "Metal Roof Restoration Melbourne | Save 30-50% vs Replacement",
+      title: "Metal Roof Restoration Melbourne | Active Metal",
       description: "Professional metal roof restoration in Melbourne. Add 15-20 years lifespan, save 30-50% vs replacement. Licensed team."
+    }
+  },
+
+  "roof-restoration": {
+    slug: "roof-restoration",
+    name: "Roof Restoration",
+    heroImage: "/img/2025/03/Best-Metal-Roof-Restoration.jpg",
+    intro: {
+      title: "Roof Restoration Melbourne – Comprehensive Restoration Services",
+      body: [
+        "Active Metal Roofing provides complete roof restoration services for commercial and residential properties across Melbourne and Victoria, extending your roof's lifespan while improving appearance and performance.",
+        "Our expert restoration process includes thorough cleaning, repairs, protective coatings, and preventative treatments that deliver like-new results at a fraction of replacement cost."
+      ],
+      bullets: [
+        "Cost-Effective Alternative to Replacement",
+        "Comprehensive Cleaning & Repairs",
+        "Premium Protective Coatings",
+        "Improved Energy Efficiency",
+        "Enhanced Curb Appeal"
+      ]
+    },
+    sections: [
+      {
+        title: "Why Choose Professional Roof Restoration?",
+        body: [
+          "Professional roof restoration addresses wear, weathering, and minor damage while significantly extending your roof's service life, offering excellent value compared to complete replacement.",
+          "Our comprehensive approach includes deep cleaning to remove dirt, debris, moss, and lichen, followed by repairs to damaged areas and application of high-performance protective coatings.",
+          "Restored roofs not only perform better and last longer, but also dramatically improve your property's appearance and market value while reducing energy costs through reflective coating technology."
+        ],
+        image: "/img/2025/03/Metal-Roof-Restoration-Service-Melbourne-277x300.jpeg",
+        imageLeft: true
+      },
+      {
+        title: "Our Complete Restoration Service",
+        body: [
+          "We begin with a detailed inspection to assess your roof's condition and identify all areas requiring attention, from structural issues to cosmetic concerns.",
+          "Our restoration process includes pressure cleaning, rust treatment, fastener replacement, flashing repairs, and sealing of all penetrations to ensure complete weather protection.",
+          "Premium coating systems provide UV protection, waterproofing, and thermal reflection, available in a wide range of colors to refresh your roof's appearance while delivering decades of enhanced performance and protection."
+        ],
+        image: "/img/2025/03/Best-Metal-Roof-Restoration-300x200.jpg",
+        imageLeft: false
+      }
+    ],
+    seo: {
+      title: "Roof Restoration Melbourne | Complete Restoration Services",
+      description: "Professional roof restoration services in Melbourne. Comprehensive cleaning, repairs & protective coatings. Cost-effective alternative to replacement."
+    }
+  },
+
+  "roof-repair": {
+    slug: "roof-repair",
+    name: "Roof Repair",
+    heroImage: "/img/roof_repair.png",
+    intro: {
+      title: "Roof Repair Melbourne – Fast & Reliable Repairs",
+      body: [
+        "Active Metal Roofing provides prompt, professional roof repair services for commercial and industrial properties across Melbourne and Victoria, addressing leaks, damage, and wear before they become costly problems.",
+        "Our experienced team diagnoses issues quickly and implements lasting repairs using quality materials and proven techniques, ensuring your roof continues to protect your property and operations."
+      ],
+      bullets: [
+        "Emergency Leak Repairs",
+        "Storm Damage Restoration",
+        "Flashing & Penetration Repairs",
+        "Fastener Replacement",
+        "Quick Response Times"
+      ]
+    },
+    sections: [
+      {
+        title: "Why Choose Professional Roof Repair?",
+        body: [
+          "Small roof issues quickly escalate into major problems if left unaddressed. Professional repairs stop leaks, prevent water damage, and protect your property's structural integrity.",
+          "Our skilled team identifies the root cause of roofing problems, not just the visible symptoms, ensuring repairs address underlying issues and prevent recurring damage.",
+          "Quick, professional repairs are far more cost-effective than delaying maintenance until major replacement becomes necessary, protecting both your property and your budget."
+        ],
+        image: "/img/2025/03/Best-Metal-Roof-Restoration-300x200.jpg",
+        imageLeft: true
+      },
+      {
+        title: "Our Roof Repair Services",
+        body: [
+          "We handle all types of commercial and industrial roof repairs, from emergency leak fixes to scheduled maintenance work, storm damage restoration, and preventative repairs.",
+          "Our comprehensive approach includes thorough inspection to identify all issues, professional repairs using quality materials, and detailed documentation for your records and insurance purposes.",
+          "Every repair is completed to the highest standards by licensed professionals, backed by our workmanship guarantee and commitment to lasting solutions that protect your investment."
+        ],
+        image: "/img/2025/03/Metal-Roof-Restoration-Service-Melbourne-277x300.jpeg",
+        imageLeft: false
+      }
+    ],
+    seo: {
+      title: "Roof Repair Melbourne | Fast Emergency Repairs",
+      description: "Professional roof repair services in Melbourne. Emergency leak repairs, storm damage restoration, licensed team with 22 years experience."
     }
   }
 };

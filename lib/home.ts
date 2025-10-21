@@ -34,13 +34,13 @@ export const services: Service[] = [
   {
     slug: 'commercial-roofing',
     title: 'Commercial Roofing',
-    image: '/img/2025/03/Roofing-Contractors-for-Commercial-Properties.png',
+    image: '/img/commercial_roofing.png',
     blurb: 'New commercial roof installations for all building types with quality materials.',
   },
   {
     slug: 'architectural-cladding',
     title: 'Architectural Cladding',
-    image: '/img/2025/03/Commercial-Flat-Metal-Roofs-Melbourne.jpg',
+    image: '/img/wall_cladding.png',
     blurb: 'Premium cladding solutions that enhance aesthetics and weather protection.',
   },
   {
@@ -58,8 +58,20 @@ export const services: Service[] = [
   {
     slug: 'metal-roof-replacement',
     title: 'Metal Roof Replacement',
-    image: '/img/2025/03/Best-Metal-Roof-Restoration.jpg',
+    image: '/img/metal_roof_replacement.png',
     blurb: 'Expert metal roof replacement with durable, long-lasting materials.',
+  },
+  {
+    slug: 'roof-repair',
+    title: 'Roof Repair',
+    image: '/img/roof_repair.png',
+    blurb: 'Fast and reliable roof repairs for leaks, storm damage, and general wear.',
+  },
+  {
+    slug: 'roof-restoration',
+    title: 'Roof Restoration',
+    image: '/img/roof_restoration.png',
+    blurb: 'Complete roof restoration services to extend lifespan and improve appearance.',
   },
 ];
 
@@ -138,5 +150,8 @@ export const serviceAreas = [
   'Dandenong',
   'Pakenham',
   'Cranbourne',
+  'Carrum Downs',
   'Berwick',
+  'Bayswater',
+  'Glen Waverley',
 ];

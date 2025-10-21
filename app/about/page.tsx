@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About Us | Active Metal Roofing',
-  description: 'Learn about Active Metal Roofing - commercial and industrial roofing specialists with over 22 years of experience serving Melbourne and Victoria. Licensed registered plumbers, OH&S compliant.',
+  description: 'Melbourne commercial roofing specialists with 22 years experience. Licensed registered plumbers, OH&S compliant, serving Victoria businesses.',
   openGraph: {
     title: 'About Us | Active Metal Roofing',
     description: 'Commercial and industrial roofing specialists with 22 years experience serving Melbourne.',

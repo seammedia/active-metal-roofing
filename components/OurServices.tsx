@@ -9,7 +9,7 @@ export default function OurServices() {
         <div className="grid lg:grid-cols-12 gap-12 items-start">
           {/* Left Column - Heading & CTA */}
           <div className="lg:col-span-4 text-white">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 !text-white">
               Our Services
             </h2>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
@@ -43,7 +43,7 @@ export default function OurServices() {
               {services.map((service) => (
                 <Link
                   key={service.slug}
-                  href={`/services/${service.slug}`}
+                  href={`/${service.slug}`}
                   className="group block bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
                 >
                   {/* Service Image */}

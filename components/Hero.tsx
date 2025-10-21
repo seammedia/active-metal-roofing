@@ -8,14 +8,14 @@ export default function Hero() {
       {/* Background Image with Dark Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/img/hero.jpg"
+          src="/img/hero_image01.jpg"
           alt="Commercial metal roofing project"
           fill
           priority
           className="object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/35 to-black/20" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/30 to-black/15" />
       </div>
 
       {/* Content Container */}

@@ -9,12 +9,12 @@ import Testimonials from '@/components/Testimonials';
 import ServiceAreas from '@/components/ServiceAreas';
 
 export const metadata: Metadata = {
-  title: 'Active Metal Roofing | Commercial & Industrial Roofing Specialists Melbourne',
-  description: 'Professional commercial and industrial metal roofing services across Melbourne. 22 years experience in re-roofing, cladding, and roof inspections. Licensed plumbers.',
+  title: 'Active Metal Roofing | Melbourne Roofing Specialists',
+  description: 'Melbourne\'s trusted commercial roofing experts. 22 years experience in re-roofing, cladding, metal roof replacement. Licensed plumbers, on-time delivery.',
   keywords: 'commercial roofing, industrial roofing, metal roofing, architectural cladding, roof inspections, Melbourne roofing, colorbond roofing',
   openGraph: {
     title: 'Active Metal Roofing | Commercial & Industrial Roofing Specialists',
-    description: 'Professional commercial and industrial metal roofing services across Melbourne. 22 years experience. Licensed plumbers.',
+    description: 'Melbourne\'s trusted commercial roofing experts with 22 years experience. Quality workmanship, on-time completion guaranteed.',
     url: 'https://activemetalroofing.com.au/',
     type: 'website',
     images: [
@@ -47,7 +47,7 @@ export default function HomePage() {
       <ProcessSteps />
 
       {/* Recent Projects - 6 Featured Projects */}
-      <RecentProjects limit={6} showViewAll={true} />
+      <RecentProjects limit={6} showViewAll={false} />
 
       {/* Testimonials Slider */}
       <Testimonials />
