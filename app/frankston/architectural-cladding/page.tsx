@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Frankstonarchitectural claddingPage() {
+export default function FrankstonArchitecturalCladdingPage() {
   return (
     <>
       <ServiceHero title={`${page.name} in ${locationName}`} image={page.heroImage} />

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Frankstonroof inspectionsPage() {
+export default function FrankstonRoofInspectionsPage() {
   return (
     <>
       <ServiceHero title={`${page.name} in ${locationName}`} image={page.heroImage} />
