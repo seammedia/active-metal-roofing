@@ -23,7 +23,7 @@ export const services: Record<string, ServicePage> = {
   "commercial-re-roofing": {
     slug: "commercial-re-roofing",
     name: "Commercial Re-Roofing",
-    heroImage: "/img/2025/03/Best-Commercial-Roof-Restoration-Melbourne.jpg",
+    heroImage: "/img/commercial-re-roofing-melbourne.jpg",
     intro: {
       title: "Commercial Re-Roofing Melbourne – Trusted Experts",
       body: [
@@ -161,7 +161,7 @@ export const services: Record<string, ServicePage> = {
   "industrial-roofing": {
     slug: "industrial-roofing",
     name: "Industrial Roofing",
-    heroImage: "/img/2025/03/Best-Metal-Roofing-For-Commercial-Flat-Roofs.jpg",
+    heroImage: "/img/industrial-roofing-melbourne.jpg",
     intro: {
       title: "Industrial Roofing Melbourne – Heavy-Duty Solutions",
       body: [
@@ -299,7 +299,7 @@ export const services: Record<string, ServicePage> = {
   "metal-roof-replacement": {
     slug: "metal-roof-replacement",
     name: "Metal Roof Replacement",
-    heroImage: "/img/2025/03/Best-Metal-Roof-Restoration.jpg",
+    heroImage: "/img/metal-roof-replacement-melbourne.jpg",
     intro: {
       title: "Metal Roof Replacement Melbourne – Expert Installation",
       body: [
