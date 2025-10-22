@@ -9,6 +9,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: '5-ways-to-detect-roof-leaks',
+    title: '5 Ways to Detect Roof Leaks Early',
+    excerpt: 'Learn how to detect roof leaks before they cause serious damage. Expert tips on identifying water damage, inspection techniques, and when to call professionals.',
+    image: '/img/blog/5-ways-to-detect-roof-leaks.jpg',
+    date: 'January 2025',
+    readTime: '7 min read',
+    category: 'Maintenance Tips'
+  },
+  {
     slug: 'how-to-prevent-damaged-roofs-in-carrum-downs',
     title: 'How to Prevent Damaged Roofs in Carrum Downs',
     excerpt: 'Expert tips on preventing roof damage in Carrum Downs. Learn about maintenance, inspections, and protective measures to extend your roof\'s lifespan in coastal environments.',
