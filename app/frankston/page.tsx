@@ -83,7 +83,7 @@ export default function FrankstonPage() {
             {services.map((service) => (
               <Link
                 key={service.slug}
-                href={`/${service.slug}`}
+                href={`/frankston/${service.slug}`}
                 className="group block bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
               >
                 {/* Service Image */}
