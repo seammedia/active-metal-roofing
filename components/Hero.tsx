@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background Image with Dark Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/img/hero_image01.jpg"
+          src="/img/active_metal_roofing_hero_03.png"
           alt="Commercial metal roofing project"
           fill
           priority
