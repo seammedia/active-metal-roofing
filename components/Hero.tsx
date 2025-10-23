@@ -8,12 +8,14 @@ export default function Hero() {
       {/* Background Image with Dark Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/img/active_metal_roofing_hero_03.png"
+          src="/img/active_metal_roofing_hero_03.jpg"
           alt="Commercial metal roofing project"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-center"
+          style={{ objectPosition: 'center center' }}
           sizes="100vw"
+          quality={95}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/30 to-black/15" />
       </div>
