@@ -5,7 +5,7 @@ import OurServices from '@/components/OurServices';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import ProcessSteps from '@/components/ProcessSteps';
 import RecentProjects from '@/components/RecentProjects';
-import Testimonials from '@/components/Testimonials';
+import GoogleReviews from '@/components/GoogleReviews';
 import ServiceAreas from '@/components/ServiceAreas';
 
 export const metadata: Metadata = {
@@ -49,8 +49,8 @@ export default function HomePage() {
       {/* Recent Projects - 6 Featured Projects */}
       <RecentProjects limit={6} showViewAll={false} />
 
-      {/* Testimonials Slider */}
-      <Testimonials />
+      {/* Google Reviews Slider */}
+      <GoogleReviews />
 
       {/* Service Areas + Footer CTA */}
       <ServiceAreas />
