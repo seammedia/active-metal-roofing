@@ -816,7 +816,7 @@ export default function HowMuchIsColorbondRoofPage() {
           <div className="bg-gray-50 p-6 rounded-lg mb-6">
             <h3 className="text-xl font-bold mb-4">Service Areas - Melbourne Metro &amp; Regions</h3>
             <div className="grid md:grid-cols-3 gap-3 text-gray-700">
-              <Link href="/melbourne-cbd" className="hover:text-[#006991]">• Melbourne CBD</Link>
+              <Link href="/melbourne" className="hover:text-[#006991]">• Melbourne</Link>
               <Link href="/berwick" className="hover:text-[#006991]">• Berwick</Link>
               <Link href="/cranbourne" className="hover:text-[#006991]">• Cranbourne</Link>
               <Link href="/dandenong" className="hover:text-[#006991]">• Dandenong</Link>

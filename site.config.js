@@ -116,7 +116,7 @@ module.exports = {
 
   // Primary Service Locations (Melbourne Suburbs)
   locations: [
-    { name: "Melbourne CBD", slug: "melbourne-cbd" },
+    { name: "Melbourne", slug: "melbourne" },
     { name: "Langwarrin", slug: "langwarrin" },
     { name: "Frankston", slug: "frankston" },
     { name: "Dandenong", slug: "dandenong" },

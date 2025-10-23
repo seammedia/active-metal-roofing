@@ -7,10 +7,10 @@ export interface Location {
 
 export const locations: Location[] = [
   {
-    slug: 'melbourne-cbd',
-    name: 'Melbourne CBD',
-    title: 'Commercial Roofing Services in Melbourne CBD',
-    description: 'Professional metal roofing solutions for Melbourne CBD businesses and commercial properties.',
+    slug: 'melbourne',
+    name: 'Melbourne',
+    title: 'Commercial Roofing Services in Melbourne',
+    description: 'Professional metal roofing solutions for Melbourne businesses and commercial properties.',
   },
   {
     slug: 'langwarrin',

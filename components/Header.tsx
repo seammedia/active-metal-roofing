@@ -26,7 +26,7 @@ const locations = [
   { name: 'Frankston', slug: 'frankston' },
   { name: 'Glen Waverley', slug: 'glen-waverley' },
   { name: 'Langwarrin', slug: 'langwarrin' },
-  { name: 'Melbourne CBD', slug: 'melbourne-cbd' },
+  { name: 'Melbourne', slug: 'melbourne' },
   { name: 'Mornington Peninsula', slug: 'mornington-peninsula' },
   { name: 'Pakenham', slug: 'pakenham' },
 ];
