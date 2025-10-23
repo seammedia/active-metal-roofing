@@ -4,12 +4,12 @@ import Image from 'next/image';
 import { services } from '@/lib/home';
 
 export const metadata: Metadata = {
-  title: 'Commercial Roofing Services in Melbourne CBD',
-  description: 'Professional metal roofing solutions for Melbourne CBD businesses and commercial properties.',
+  title: 'Commercial Roofing Melbourne | Active Metal Roofing',
+  description: 'Professional metal roofing solutions for Melbourne businesses and commercial properties. Licensed plumbers with 22 years experience.',
 };
 
-export default function MelbourneCBDPage() {
-  const locationName = 'Melbourne CBD';
+export default function MelbournePage() {
+  const locationName = 'Melbourne';
 
   return (
     <main className="bg-white">
@@ -83,7 +83,7 @@ export default function MelbourneCBDPage() {
             {services.map((service) => (
               <Link
                 key={service.slug}
-                href={`/${service.slug}`}
+                href={`/melbourne/${service.slug}`}
                 className="group block bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
               >
                 {/* Service Image */}
