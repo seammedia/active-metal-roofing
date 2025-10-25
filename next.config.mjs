@@ -101,6 +101,75 @@ const nextConfig = {
         destination: '/locations/:path',
         permanent: true,
       },
+      // Redirect old advertising landing pages (these don't exist in new site)
+      {
+        source: '/guttering-ads',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/industrial-roofing-ads',
+        destination: '/services/industrial-roofing',
+        permanent: true,
+      },
+      {
+        source: '/architectural-cladding-ads',
+        destination: '/services/architectural-cladding',
+        permanent: true,
+      },
+      {
+        source: '/commercial-roofing-ads',
+        destination: '/services/commercial-roofing',
+        permanent: true,
+      },
+      {
+        source: '/skylight-ads',
+        destination: '/services',
+        permanent: true,
+      },
+      // Redirect old WordPress content uploads
+      {
+        source: '/wp-content/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      // Redirect old blog post with /feed/ suffix
+      {
+        source: '/metal-roofing-and-what-roof-profile-you-should-consider-for-this-type-of-roof/feed',
+        destination: '/blog',
+        permanent: true,
+      },
+      // Redirect /locations/[slug] to /[slug] for consistency
+      {
+        source: '/locations/melbourne-cbd',
+        destination: '/melbourne',
+        permanent: true,
+      },
+      {
+        source: '/locations/frankston',
+        destination: '/frankston',
+        permanent: true,
+      },
+      {
+        source: '/locations/berwick',
+        destination: '/berwick',
+        permanent: true,
+      },
+      {
+        source: '/locations/cranbourne',
+        destination: '/cranbourne',
+        permanent: true,
+      },
+      {
+        source: '/locations/pakenham',
+        destination: '/pakenham',
+        permanent: true,
+      },
+      {
+        source: '/locations/langwarrin',
+        destination: '/langwarrin',
+        permanent: true,
+      },
     ];
   },
 };

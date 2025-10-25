@@ -2,6 +2,13 @@
 User-agent: *
 Allow: /
 
+# Disallow old advertising landing pages and WordPress content
+Disallow: /*-ads/
+Disallow: /*-ads
+Disallow: /wp-content/
+Disallow: /index.php/
+Disallow: /locations/
+
 # Host
 Host: https://www.activemetalroofing.com.au
 
