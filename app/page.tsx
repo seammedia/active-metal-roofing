@@ -15,11 +15,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Active Metal Roofing | Commercial & Industrial Roofing Specialists',
     description: 'Melbourne\'s trusted commercial roofing experts with 22 years experience. Quality workmanship, on-time completion guaranteed.',
-    url: 'https://activemetalroofing.com.au/',
+    url: 'https://www.activemetalroofing.com.au/',
     type: 'website',
     images: [
       {
-        url: 'https://activemetalroofing.com.au/img/hero.jpg',
+        url: 'https://www.activemetalroofing.com.au/img/hero.jpg',
         width: 1200,
         height: 630,
         alt: 'Active Metal Roofing',

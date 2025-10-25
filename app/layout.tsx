@@ -20,6 +20,7 @@ const robotoSlab = Roboto_Slab({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.activemetalroofing.com.au'),
   title: 'Active Metal Roofing | Commercial & Industrial Roofing Specialists Melbourne',
   description: 'Professional commercial and industrial metal roofing services across Melbourne. 22 years experience in re-roofing, cladding, and roof inspections. Licensed plumbers.',
   keywords: 'commercial roofing, industrial roofing, metal roofing, architectural cladding, roof inspections, Melbourne roofing, colorbond roofing',
@@ -27,10 +28,10 @@ export const metadata: Metadata = {
     title: 'Active Metal Roofing | Commercial & Industrial Roofing Specialists',
     description: 'Professional commercial and industrial metal roofing services across Melbourne. 22 years experience. Licensed plumbers.',
     type: 'website',
-    url: 'https://activemetalroofing.com.au/',
+    url: 'https://www.activemetalroofing.com.au/',
     images: [
       {
-        url: 'https://activemetalroofing.com.au/img/hero-commercial-roofing.jpg',
+        url: 'https://www.activemetalroofing.com.au/img/hero-commercial-roofing.jpg',
         width: 1200,
         height: 630,
         alt: 'Active Metal Roofing',
