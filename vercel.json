@@ -1,4 +1,17 @@
 {
   "buildCommand": "npm run build",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "activemetalroofing.com.au"
+        }
+      ],
+      "destination": "https://www.activemetalroofing.com.au/$1",
+      "permanent": true
+    }
+  ]
 }

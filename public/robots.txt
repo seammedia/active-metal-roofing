@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://activemetalroofing.com.au
+Host: https://www.activemetalroofing.com.au
 
 # Sitemaps
-Sitemap: https://activemetalroofing.com.au/sitemap.xml
+Sitemap: https://www.activemetalroofing.com.au/sitemap.xml

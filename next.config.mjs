@@ -52,6 +52,55 @@ const nextConfig = {
         destination: '/:path*',
         permanent: true,
       },
+      // Old WordPress URLs with index.php
+      {
+        source: '/index.php/:path*',
+        destination: '/:path*',
+        permanent: true,
+      },
+      // roof-reports doesn't exist, redirect to services
+      {
+        source: '/roof-reports',
+        destination: '/services/roof-inspections',
+        permanent: true,
+      },
+      // Remove trailing slashes (Next.js config already has trailingSlash: false)
+      // But add explicit redirects for common ones
+      {
+        source: '/frankston/',
+        destination: '/frankston',
+        permanent: true,
+      },
+      {
+        source: '/melbourne/',
+        destination: '/melbourne',
+        permanent: true,
+      },
+      {
+        source: '/berwick/',
+        destination: '/berwick',
+        permanent: true,
+      },
+      {
+        source: '/cranbourne/',
+        destination: '/cranbourne',
+        permanent: true,
+      },
+      {
+        source: '/dandenong/',
+        destination: '/dandenong',
+        permanent: true,
+      },
+      {
+        source: '/services/:path/',
+        destination: '/services/:path',
+        permanent: true,
+      },
+      {
+        source: '/locations/:path/',
+        destination: '/locations/:path',
+        permanent: true,
+      },
     ];
   },
 };
