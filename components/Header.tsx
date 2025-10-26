@@ -28,6 +28,7 @@ const locations = [
   { name: 'Langwarrin', slug: 'langwarrin' },
   { name: 'Melbourne', slug: 'melbourne' },
   { name: 'Mornington Peninsula', slug: 'mornington-peninsula' },
+  { name: 'Mount Martha', slug: 'mount-martha' },
   { name: 'Pakenham', slug: 'pakenham' },
 ];
 
