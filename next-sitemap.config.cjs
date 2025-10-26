@@ -9,5 +9,16 @@ module.exports = {
     '/*-ads/*',
     '/wp-content/*', // Exclude WordPress content
     '/index.php/*', // Exclude old WordPress URLs
+    '/commercial-re-roofing', // Redirect to /services/commercial-re-roofing
+    '/commercial-roofing', // Redirect to /services/commercial-roofing
+    '/architectural-cladding', // Redirect to /services/architectural-cladding
+    '/industrial-roofing', // Redirect to /services/industrial-roofing
+    '/roof-inspections', // Redirect to /services/roof-inspections
+    '/colorbond-roof-replacement', // Redirect to /services/colorbond-roof-replacement
+    '/metal-roof-replacement', // Redirect to /services/metal-roof-replacement
+    '/metal-roof-restoration', // Redirect to /services/metal-roof-restoration
+    '/roof-repair', // Redirect to /services/roof-repair
+    '/roof-restoration', // Redirect to /services/roof-restoration
+    '/melbourne-cbd', // Redirect to /melbourne
   ],
 };

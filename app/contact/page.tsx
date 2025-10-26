@@ -47,24 +47,13 @@ export default function ContactPage() {
               </a>
             </div>
 
-            <div style={{ marginBottom: '24px' }}>
+            <div>
               <h3 style={{ fontSize: '1.25rem', marginBottom: '12px', color: '#212121', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 ✉️ Email
               </h3>
               <a href="mailto:admin@activemetalroofing.com.au" style={{ fontSize: '1.1rem', color: '#006991', textDecoration: 'none' }}>
                 admin@activemetalroofing.com.au
               </a>
-            </div>
-
-            <div>
-              <h3 style={{ fontSize: '1.25rem', marginBottom: '12px', color: '#212121', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                🕒 Trading Hours
-              </h3>
-              <p style={{ fontSize: '1.1rem', color: '#616161', lineHeight: '1.6' }}>
-                <strong>Monday - Friday:</strong> 7:00 AM - 5:00 PM<br />
-                <strong>Saturday:</strong> 8:00 AM - 2:00 PM<br />
-                <strong>Sunday:</strong> Closed
-              </p>
             </div>
           </div>
 

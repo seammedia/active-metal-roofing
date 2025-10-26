@@ -170,6 +170,63 @@ const nextConfig = {
         destination: '/langwarrin',
         permanent: true,
       },
+      // Redirect root-level service pages to /services/[slug] for canonical URLs
+      {
+        source: '/commercial-re-roofing',
+        destination: '/services/commercial-re-roofing',
+        permanent: true,
+      },
+      {
+        source: '/commercial-roofing',
+        destination: '/services/commercial-roofing',
+        permanent: true,
+      },
+      {
+        source: '/architectural-cladding',
+        destination: '/services/architectural-cladding',
+        permanent: true,
+      },
+      {
+        source: '/industrial-roofing',
+        destination: '/services/industrial-roofing',
+        permanent: true,
+      },
+      {
+        source: '/roof-inspections',
+        destination: '/services/roof-inspections',
+        permanent: true,
+      },
+      {
+        source: '/colorbond-roof-replacement',
+        destination: '/services/colorbond-roof-replacement',
+        permanent: true,
+      },
+      {
+        source: '/metal-roof-replacement',
+        destination: '/services/metal-roof-replacement',
+        permanent: true,
+      },
+      {
+        source: '/metal-roof-restoration',
+        destination: '/services/metal-roof-restoration',
+        permanent: true,
+      },
+      {
+        source: '/roof-repair',
+        destination: '/services/roof-repair',
+        permanent: true,
+      },
+      {
+        source: '/roof-restoration',
+        destination: '/services/roof-restoration',
+        permanent: true,
+      },
+      // Redirect /melbourne-cbd to /melbourne for consistency
+      {
+        source: '/melbourne-cbd',
+        destination: '/melbourne',
+        permanent: true,
+      },
     ];
   },
 };
