@@ -56,7 +56,8 @@ export async function GET() {
 <rss version="2.0"
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Active Metal Roofing Blog</title>
     <link>${siteUrl}/blog</link>
@@ -78,6 +79,8 @@ ${sortedPosts.map(post => `    <item>
       <dc:creator><![CDATA[Active Metal Roofing]]></dc:creator>
       <category><![CDATA[${post.category}]]></category>
       <enclosure url="${siteUrl}${post.image}" type="image/jpeg" length="0"/>
+      <media:content url="${siteUrl}${post.image}" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="${siteUrl}${post.image}"/>
     </item>`).join('\n')}
   </channel>
 </rss>`;
