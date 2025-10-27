@@ -184,7 +184,7 @@ export const services: Record<string, ServicePage> = {
           "Our team brings specialised expertise in large-scale roofing projects, understanding the unique structural and operational requirements of industrial buildings.",
           "We prioritize safety on every site, implementing comprehensive OH&S protocols and working efficiently to minimize disruption to your operations."
         ],
-        image: "/img/2025/03/Flat-Metal-Roofing-Solutions-Melbourne-300x265.jpg",
+        image: "/img/industrial-roofing-melbourne.jpg",
         imageLeft: true
       },
       {
@@ -322,7 +322,7 @@ export const services: Record<string, ServicePage> = {
           "Available in various profiles including corrugated, klip-lok, and standing seam, metal roofing suits any architectural style while providing superior weather protection and structural performance.",
           "Energy-efficient reflective coatings reduce cooling costs, while the recyclable nature of metal roofing minimizes environmental impact at the end of its long service life."
         ],
-        image: "/img/2025/03/Metal-Roof-Restoration-Service-Melbourne-277x300.jpeg",
+        image: "/img/metal-roof-replacement-melbourne.jpg",
         imageLeft: true
       },
       {
