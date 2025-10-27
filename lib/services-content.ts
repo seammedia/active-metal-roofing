@@ -138,7 +138,7 @@ export const services: Record<string, ServicePage> = {
           "Properly installed cladding systems provide exceptional moisture and wind resistance, protecting your building envelope from Melbourne's harsh weather while improving energy efficiency.",
           "With minimal maintenance requirements and long-lasting durability, quality cladding systems deliver outstanding value over the life of your building."
         ],
-        image: "/img/2025/03/Best-Metal-Roofing-For-Commercial-Flat-Roofs-300x200.jpg",
+        image: "/img/wall_cladding.png",
         imageLeft: true
       },
       {
