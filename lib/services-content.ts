@@ -46,7 +46,7 @@ export const services: Record<string, ServicePage> = {
           "Adding a new roofing layer over a weathered roof can be a cost-effective alternative to full replacement, extending your roof's life by decades while avoiding the expense of complete removal.",
           "Our team works efficiently to minimize disruption to your business operations, coordinating with your schedule to ensure work is completed on time and within budget."
         ],
-        image: "/img/2025/03/Best-Metal-Roof-Restoration-300x200.jpg",
+        image: "/img/commercial-re-roofing-melbourne.jpg",
         imageLeft: true
       },
       {
