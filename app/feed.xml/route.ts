@@ -3,6 +3,14 @@ import { NextResponse } from 'next/server';
 // Blog posts data - sync this with app/blog/page.tsx
 const blogPosts = [
   {
+    slug: 'top-causes-of-leaks-on-commercial-buildings',
+    title: 'Top Causes of Leaks on Commercial Buildings — and How to Prevent Them',
+    excerpt: 'Discover the leading causes of commercial roof leaks and proven prevention strategies. Expert advice on protecting your business from water damage and costly repairs.',
+    image: '/img/blog/top-causes-of-leaks-on-commercial-buildings.png',
+    date: '2025-10-28T09:00:00Z',
+    category: 'Maintenance Tips'
+  },
+  {
     slug: '5-ways-to-detect-roof-leaks',
     title: '5 Ways to Detect Roof Leaks Early',
     excerpt: 'Learn how to detect roof leaks before they cause serious damage. Expert tips on identifying water damage, inspection techniques, and when to call professionals.',
