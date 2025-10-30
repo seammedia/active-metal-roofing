@@ -3,6 +3,14 @@ import { NextResponse } from 'next/server';
 // Blog posts data - sync this with app/blog/page.tsx
 const blogPosts = [
   {
+    slug: 'why-premium-metal-roof-materials-matter-for-commercial-buildings',
+    title: 'Why Premium Metal Roof Materials Matter for Commercial Buildings',
+    excerpt: 'Discover why investing in premium metal roofing materials is crucial for commercial buildings. Learn about durability, maintenance savings, warranties, and material comparisons.',
+    image: '/img/blog/why-premium-metal-roof-materials-matter-for-commercial-buildings.png',
+    date: '2025-10-29T09:00:00Z',
+    category: 'Roofing Materials'
+  },
+  {
     slug: 'top-causes-of-leaks-on-commercial-buildings',
     title: 'Top Causes of Leaks on Commercial Buildings — and How to Prevent Them',
     excerpt: 'Discover the leading causes of commercial roof leaks and proven prevention strategies. Expert advice on protecting your business from water damage and costly repairs.',
