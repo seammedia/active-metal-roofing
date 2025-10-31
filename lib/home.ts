@@ -28,7 +28,7 @@ export const services: Service[] = [
   {
     slug: 'commercial-re-roofing',
     title: 'Commercial Re-Roofing',
-    image: '/img/2025/03/Best-Commercial-Roof-Restoration-Melbourne.jpg',
+    image: '/img/commercial-re-roofing-melbourne.jpg',
     blurb: 'Complete commercial roof replacement with minimal disruption to your operations.',
   },
   {
@@ -46,7 +46,7 @@ export const services: Service[] = [
   {
     slug: 'industrial-roofing',
     title: 'Industrial Roofing',
-    image: '/img/2025/03/Best-Metal-Roofing-For-Commercial-Flat-Roofs.jpg',
+    image: '/img/industrial-roofing-melbourne.jpg',
     blurb: 'Heavy-duty roofing systems for warehouses, factories, and large facilities.',
   },
   {
@@ -58,7 +58,7 @@ export const services: Service[] = [
   {
     slug: 'metal-roof-replacement',
     title: 'Metal Roof Replacement',
-    image: '/img/metal_roof_replacement.png',
+    image: '/img/metal-roof-replacement-melbourne.jpg',
     blurb: 'Expert metal roof replacement with durable, long-lasting materials.',
   },
   {
