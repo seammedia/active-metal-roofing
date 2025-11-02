@@ -3,6 +3,14 @@ import { NextResponse } from 'next/server';
 // Blog posts data - sync this with app/blog/page.tsx
 const blogPosts = [
   {
+    slug: 'signs-your-commercial-roof-needs-replacement-or-major-repair',
+    title: 'Signs Your Commercial Roof Needs Replacement or Major Repair',
+    excerpt: 'Discover the critical warning signs that your commercial roof needs replacement or repair. Learn about leaks, corrosion, age factors, insulation problems, and the risks of delaying action.',
+    image: '/img/blog/signs-your-commercial-roof-needs-replacement-or-major-repair.png',
+    date: '2025-11-03T09:00:00Z',
+    category: 'Maintenance Tips'
+  },
+  {
     slug: 'why-premium-metal-roof-materials-matter-for-commercial-buildings',
     title: 'Why Premium Metal Roof Materials Matter for Commercial Buildings',
     excerpt: 'Discover why investing in premium metal roofing materials is crucial for commercial buildings. Learn about durability, maintenance savings, warranties, and material comparisons.',

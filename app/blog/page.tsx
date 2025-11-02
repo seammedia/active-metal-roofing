@@ -9,6 +9,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: 'signs-your-commercial-roof-needs-replacement-or-major-repair',
+    title: 'Signs Your Commercial Roof Needs Replacement or Major Repair',
+    excerpt: 'Discover the critical warning signs that your commercial roof needs replacement or repair. Learn about leaks, corrosion, age factors, insulation problems, and the risks of delaying action.',
+    image: '/img/blog/signs-your-commercial-roof-needs-replacement-or-major-repair.png',
+    date: 'November 2025',
+    readTime: '11 min read',
+    category: 'Maintenance Tips'
+  },
+  {
     slug: 'what-is-the-most-common-type-for-commercial-roofing',
     title: 'What is the Most Common Type for Commercial Roofing? A Complete Guide',
     excerpt: 'Discover the most popular commercial roofing types in Australia. Compare metal, TPO, EPDM and other options. Expert insights on durability, cost and best applications.',
