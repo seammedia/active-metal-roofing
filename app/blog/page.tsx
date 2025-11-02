@@ -9,6 +9,15 @@ export const metadata: Metadata = {
 
 const blogPosts = [
   {
+    slug: 'what-is-the-most-common-type-for-commercial-roofing',
+    title: 'What is the Most Common Type for Commercial Roofing? A Complete Guide',
+    excerpt: 'Discover the most popular commercial roofing types in Australia. Compare metal, TPO, EPDM and other options. Expert insights on durability, cost and best applications.',
+    image: '/img/commercial_roofing.png',
+    date: 'November 2025',
+    readTime: '10 min read',
+    category: 'Roofing Materials'
+  },
+  {
     slug: 'why-premium-metal-roof-materials-matter-for-commercial-buildings',
     title: 'Why Premium Metal Roof Materials Matter for Commercial Buildings',
     excerpt: 'Discover why investing in premium metal roofing materials is crucial for commercial buildings. Learn about durability, maintenance savings, warranties, and material comparisons.',
