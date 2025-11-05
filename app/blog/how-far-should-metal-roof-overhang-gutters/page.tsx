@@ -3,11 +3,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How Far Should Metal Roof Overhang Gutters? Expert Guide',
-  description: 'Learn the optimal metal roof overhang distance for gutters. Expert guidance on measurements, installation tips, and common mistakes to avoid for proper water management.',
+  title: 'How Far Should Metal Roof Overhang Gutters? Expert Guide | How Much Overhang for Metal Roof',
+  description: 'Learn how much overhang on metal roof for gutters. Expert guide on metal roof overhang for gutters, how far should metal roof overhang drip edge, and optimal measurements for water management.',
   openGraph: {
     title: 'How Far Should Metal Roof Overhang Gutters? Expert Guide',
-    description: 'Complete guide to proper metal roof overhang measurements for optimal gutter performance and water drainage.',
+    description: 'Complete guide to proper metal roof overhang measurements for optimal gutter performance and water drainage. Learn how much overhang for gutters and roof overhang for gutters specifications.',
     url: 'https://activemetalroofing.com.au/blog/how-far-should-metal-roof-overhang-gutters',
     type: 'article',
     images: [
@@ -61,7 +61,7 @@ export default function MetalRoofOverhangPost() {
         {/* Introduction */}
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-xl text-gray-700 leading-relaxed mb-6">
-            Proper metal roof overhang is critical for effective water management and protecting your building from water damage. Getting the overhang measurement right ensures rainwater flows correctly into gutters, prevents fascia rot, and extends the life of your roofing system. This comprehensive guide covers everything you need to know about metal roof overhang specifications.
+            Proper metal roof overhang is critical for effective water management and protecting your building from water damage. Getting the overhang measurement right ensures rainwater flows correctly into gutters, prevents fascia rot, and extends the life of your roofing system. Whether you're wondering "how much overhang for metal roof" or specifically "how much overhang on metal roof for gutters", this comprehensive guide covers everything you need to know about metal roof overhang specifications and how far should metal roof overhang gutters.
           </p>
         </div>
 
@@ -216,13 +216,16 @@ export default function MetalRoofOverhangPost() {
             <div className="border-l-4 border-[#6EC1E4] pl-6 py-2">
               <h3 className="text-xl font-bold text-gray-900 mb-3">2. Gutter Size and Style</h3>
               <p className="text-gray-700 mb-3">
-                The width and depth of your gutter system impacts optimal overhang:
+                The width and depth of your gutter system impacts optimal overhang. Understanding how much overhang on metal roof requirements vary by gutter type is essential:
               </p>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
                 <li><strong>Standard 125mm (5") gutters:</strong> 32-38mm overhang</li>
                 <li><strong>Large 150mm (6") gutters:</strong> 38-50mm overhang</li>
                 <li><strong>Box/commercial gutters:</strong> 50-75mm overhang</li>
               </ul>
+              <p className="text-gray-700 mt-3">
+                For those asking "how much overhang for gutters" specifically, these measurements represent the metal roof overhang for gutters that provides optimal water capture.
+              </p>
             </div>
 
             <div className="border-l-4 border-[#6EC1E4] pl-6 py-2">
@@ -247,7 +250,7 @@ export default function MetalRoofOverhangPost() {
             <div className="border-l-4 border-[#6EC1E4] pl-6 py-2">
               <h3 className="text-xl font-bold text-gray-900 mb-3">5. Drip Edge Installation</h3>
               <p className="text-gray-700">
-                The type and angle of drip edge flashing affects how water exits the roof. A properly angled drip edge (typically 100-120 degrees) directs water into the gutter, allowing for optimal overhang performance even at the lower end of the range.
+                The type and angle of drip edge flashing affects how water exits the roof and determines how far should metal roof overhang drip edge. A properly angled drip edge (typically 100-120 degrees) directs water into the gutter, allowing for optimal overhang performance even at the lower end of the range. This is a critical factor when determining roof overhang for gutters.
               </p>
             </div>
 
@@ -303,8 +306,8 @@ export default function MetalRoofOverhangPost() {
 
             <div className="bg-white p-4 rounded-lg">
               <h4 className="font-bold text-gray-900 mb-2">❌ No Drip Edge Installation</h4>
-              <p className="text-gray-700 mb-2"><strong>Problem:</strong> Relying on metal roof overhang alone without proper drip edge flashing.</p>
-              <p className="text-gray-700"><strong>Result:</strong> Water capillary action under the roof, fascia damage, and reduced gutter effectiveness.</p>
+              <p className="text-gray-700 mb-2"><strong>Problem:</strong> Relying on metal roof overhang alone without proper drip edge flashing, or not understanding how much roof overhang for gutter protection is needed.</p>
+              <p className="text-gray-700"><strong>Result:</strong> Water capillary action under the roof, fascia damage, and reduced gutter effectiveness. This is why understanding gutters for metal roof overhang specifications is crucial.</p>
             </div>
           </div>
         </section>
@@ -368,7 +371,7 @@ export default function MetalRoofOverhangPost() {
                 Position Gutters Correctly
               </h3>
               <p className="text-gray-700 mb-3">
-                Gutter placement is just as important as roof overhang:
+                Gutter placement is just as important as roof overhang. When installing gutters for metal roof overhang, follow these guidelines:
               </p>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
                 <li>Position the back edge of the gutter 25-32mm below the drip edge</li>
@@ -509,6 +512,15 @@ export default function MetalRoofOverhangPost() {
             Frequently Asked Questions
           </h2>
           <div className="space-y-6">
+            <div className="border-b border-gray-200 pb-6">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
+                How much overhang for metal roof should I plan for?
+              </h3>
+              <p className="text-gray-700">
+                The standard recommendation for how much overhang on metal roof installations is 32-38mm (1.25-1.5 inches) for most applications. This applies whether you're asking "how much overhang on metal roof for gutters" or general overhang specifications. Commercial buildings may require slightly more overhang (38-50mm) depending on gutter size.
+              </p>
+            </div>
+
             <div className="border-b border-gray-200 pb-6">
               <h3 className="text-xl font-bold text-gray-900 mb-3">
                 Can I adjust overhang after the roof is installed?
