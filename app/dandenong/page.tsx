@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { services } from '@/lib/home';
 
 export const metadata: Metadata = {
-  title: 'Commercial Roofing Services in Dandenong',
-  description: 'Reliable metal roofing services for Dandenong industrial and commercial properties.',
+  title: 'Commercial Roofing Contractors Dandenong | Roof Repairs & Restoration',
+  description: 'Expert commercial roofing contractors in Dandenong. Specialising in roof repairs, commercial roof restoration, factory roof replacement, and commercial metal roofing. Active Metal Roofing - 22 years experience.',
 };
 
 export default function DandenongPage() {
@@ -32,10 +32,10 @@ export default function DandenongPage() {
           </nav>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Commercial Roofing Services in {locationName}
+            Commercial Roofing Contractors in {locationName}
           </h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl">
-            Reliable metal roofing services for {locationName} industrial and commercial properties.
+            Expert roofing Dandenong services including roof repairs, commercial roof restoration, and factory roof replacement. Active Metal Roofing delivers premium commercial metal roofing solutions for industrial and commercial properties.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
@@ -75,7 +75,7 @@ export default function DandenongPage() {
               Our Services in {locationName}
             </h2>
             <p className="text-lg text-[#7A7A7A] max-w-3xl mx-auto">
-              We provide comprehensive commercial and industrial roofing solutions for businesses in {locationName} and surrounding areas.
+              As trusted commercial roofing contractors, we provide comprehensive roof repairs Dandenong, roof restoration Dandenong, commercial roof replacement, and commercial metal roof solutions for businesses in {locationName} and surrounding industrial areas.
             </p>
           </div>
 
@@ -128,6 +128,62 @@ export default function DandenongPage() {
         </div>
       </section>
 
+      {/* Service Highlights */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#212121] mb-4">
+              Dandenong's Trusted Commercial Roofing Contractors
+            </h2>
+            <p className="text-lg text-[#7A7A7A] max-w-3xl mx-auto">
+              Specialising in commercial metal roofing, factory roof replacement, and industrial roofing solutions
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-[#212121] mb-4">Roof Repairs Dandenong</h3>
+              <p className="text-[#7A7A7A] mb-4">
+                Quick, reliable roof repairs for commercial and industrial properties. From minor leak fixes to extensive damage restoration, our experienced team handles all types of commercial roof repairs in Dandenong with precision and efficiency.
+              </p>
+              <Link href="/dandenong/roof-repair" className="text-[#006991] font-semibold hover:underline">
+                Learn more about roof repairs →
+              </Link>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-[#212121] mb-4">Commercial Roof Restoration</h3>
+              <p className="text-[#7A7A7A] mb-4">
+                Extend your roof's lifespan with professional roof restoration Dandenong services. We specialise in commercial roof restoration that revitalises aging metal roofs, improving performance and appearance for factories, warehouses, and commercial buildings.
+              </p>
+              <Link href="/dandenong/roof-restoration" className="text-[#006991] font-semibold hover:underline">
+                Explore roof restoration options →
+              </Link>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-[#212121] mb-4">Factory Roof Replacement</h3>
+              <p className="text-[#7A7A7A] mb-4">
+                Complete factory roof replacement services for Dandenong industrial properties. As experienced commercial roofing contractors, we handle large-scale commercial roof replacement projects with minimal disruption to your operations.
+              </p>
+              <Link href="/dandenong/commercial-re-roofing" className="text-[#006991] font-semibold hover:underline">
+                View commercial roof replacement →
+              </Link>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-[#212121] mb-4">Commercial Metal Roofing</h3>
+              <p className="text-[#7A7A7A] mb-4">
+                Premium commercial metal roof installations using high-grade Colorbond and steel materials. Active Metal Roofing delivers durable, long-lasting commercial metal roofing systems designed for Dandenong's industrial and commercial sectors.
+              </p>
+              <Link href="/dandenong/commercial-roofing" className="text-[#006991] font-semibold hover:underline">
+                Discover commercial metal roof options →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us Section */}
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
@@ -135,6 +191,9 @@ export default function DandenongPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-[#212121] mb-4">
               Why Choose Active Metal Roofing in {locationName}
             </h2>
+            <p className="text-lg text-[#7A7A7A] max-w-2xl mx-auto">
+              Leading roofing Dandenong specialists with over 22 years of experience in commercial and industrial roofing projects
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -188,7 +247,7 @@ export default function DandenongPage() {
             Ready to Get Started?
           </h2>
           <p className="text-lg text-[#212121]/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free inspection and quote for your {locationName} commercial roofing project.
+            Contact Active Metal Roofing today for a free inspection and quote. Whether you need roof repairs Dandenong, commercial roof restoration, or factory roof replacement, our expert commercial roofing contractors are ready to help.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
