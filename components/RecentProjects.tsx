@@ -1,6 +1,9 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { featuredProjects } from '@/lib/projects';
+import { useState, useRef, useEffect } from 'react';
 
 interface RecentProjectsProps {
   limit?: number;
@@ -9,6 +12,40 @@ interface RecentProjectsProps {
 
 export default function RecentProjects({ limit, showViewAll = false }: RecentProjectsProps) {
   const projects = limit ? featuredProjects.slice(0, limit) : featuredProjects;
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const checkScrollPosition = () => {
+    if (scrollContainerRef.current) {
+      const { scrollLeft, scrollWidth, clientWidth } = scrollContainerRef.current;
+      setCanScrollLeft(scrollLeft > 0);
+      setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 10);
+    }
+  };
+
+  useEffect(() => {
+    checkScrollPosition();
+    const scrollContainer = scrollContainerRef.current;
+    if (scrollContainer) {
+      scrollContainer.addEventListener('scroll', checkScrollPosition);
+      return () => scrollContainer.removeEventListener('scroll', checkScrollPosition);
+    }
+  }, []);
+
+  const scroll = (direction: 'left' | 'right') => {
+    if (scrollContainerRef.current) {
+      const scrollAmount = 400;
+      const targetScroll = direction === 'left'
+        ? scrollContainerRef.current.scrollLeft - scrollAmount
+        : scrollContainerRef.current.scrollLeft + scrollAmount;
+
+      scrollContainerRef.current.scrollTo({
+        left: targetScroll,
+        behavior: 'smooth'
+      });
+    }
+  };
 
   return (
     <section id="recent-projects" className="py-16 md:py-24 bg-white">
@@ -24,32 +61,75 @@ export default function RecentProjects({ limit, showViewAll = false }: RecentPro
           </p>
         </div>
 
-        {/* Projects Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {projects.map((project, index) => (
-            <div
-              key={project.id}
-              className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 focus-within:ring-2 focus-within:ring-[#006991] focus-within:ring-offset-2"
+        {/* Carousel Container */}
+        <div className="relative">
+          {/* Left Arrow */}
+          {canScrollLeft && (
+            <button
+              onClick={() => scroll('left')}
+              className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white shadow-lg rounded-full p-3 transition-all duration-300 hover:scale-110"
+              aria-label="Scroll left"
             >
-              {/* Project Image */}
-              <div className="relative h-64 w-full overflow-hidden bg-gray-100">
-                <Image
-                  src={project.image}
-                  alt={project.alt}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover group-hover:scale-[1.05] transition-transform duration-500"
-                  priority={index < 3}
-                />
-              </div>
+              <svg className="w-6 h-6 text-[#006991]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+          )}
 
-              {/* Project Info */}
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-[#212121] mb-2 group-hover:text-[#006991] transition-colors">
-                  {project.title}
-                </h3>
+          {/* Right Arrow */}
+          {canScrollRight && (
+            <button
+              onClick={() => scroll('right')}
+              className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/90 hover:bg-white shadow-lg rounded-full p-3 transition-all duration-300 hover:scale-110"
+              aria-label="Scroll right"
+            >
+              <svg className="w-6 h-6 text-[#006991]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          )}
+
+          {/* Scrollable Projects Container */}
+          <div
+            ref={scrollContainerRef}
+            className="flex gap-6 overflow-x-auto scroll-smooth pb-4 hide-scrollbar"
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+          >
+            {projects.map((project, index) => (
+              <div
+                key={project.id}
+                className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 flex-shrink-0 w-[340px] md:w-[380px]"
+              >
+                {/* Project Image */}
+                <div className="relative h-64 w-full overflow-hidden bg-gray-100">
+                  <Image
+                    src={project.image}
+                    alt={project.alt}
+                    fill
+                    sizes="380px"
+                    className="object-cover group-hover:scale-[1.05] transition-transform duration-500"
+                    priority={index < 3}
+                  />
+                </div>
+
+                {/* Project Info */}
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-[#212121] mb-2 group-hover:text-[#006991] transition-colors">
+                    {project.title}
+                  </h3>
+                </div>
               </div>
-            </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Scroll Indicator Dots */}
+        <div className="flex justify-center gap-2 mt-6">
+          {Array.from({ length: Math.ceil(projects.length / 3) }).map((_, idx) => (
+            <div
+              key={idx}
+              className="w-2 h-2 rounded-full bg-gray-300"
+            />
           ))}
         </div>
 
@@ -78,6 +158,12 @@ export default function RecentProjects({ limit, showViewAll = false }: RecentPro
           </div>
         )}
       </div>
+
+      <style jsx>{`
+        .hide-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+      `}</style>
     </section>
   );
 }

@@ -46,8 +46,8 @@ export default function HomePage() {
       {/* Process Steps - 4 Steps with Numbered Pills */}
       <ProcessSteps />
 
-      {/* Recent Projects - 6 Featured Projects */}
-      <RecentProjects limit={6} showViewAll={false} />
+      {/* Recent Projects - Carousel with All Projects */}
+      <RecentProjects showViewAll={false} />
 
       {/* Google Reviews Slider */}
       <GoogleReviews />
